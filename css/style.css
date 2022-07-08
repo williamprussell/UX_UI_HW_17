@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: Bebas Neue, Arial, sans-serif
+}
+
+.site-header {
+    border: 1px solid red;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    align-content: space-between
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    align-self: flex-start;
+    padding: 0.5rem;
+    margin-left: 3rem;
+}
+
+.work-title {
+    font-size: 20pt;
+    color: #378AD7;
+    margin-left: 3rem;
+}
+
+.about-title {
+    font-size: 20pt;
+    color: #378AD7;
+    margin-left: 2rem;
+}
+
+.contact-title {
+    margin-right: 3rem;
+    font-size: 20pt;
+    color: #378AD7;
+    margin-left: 2rem;
+}
