@@ -1,41 +1,88 @@
 * {
     box-sizing: border-box;
-    font-family: Bebas Neue, Arial, sans-serif
 }
 
-.site-header {
-    border: 1px solid red;
-}
+/* Header navigation starts here */
 
-.nav-container {
+.nav {
     display: flex;
-    align-items: center;
-    align-content: space-between
+    justify-content: flex-end;
+    background-color: #E7E6D9;
+    padding: 30px;
+    font-family: Bebas Neue, Arial, sans-serif;
+}
+
+.right {
+    font-size: 20pt;
+    color: #378AD7;
+}
+
+.work {
+    margin-right: 2rem;
+}
+
+.about {
+    margin-right: 2rem;
+}
+
+.contact {
+    margin-right: 72px;
 }
 
 .logo {
-    width: 5%;
+    width: 200;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 6%;
     height: auto;
-    align-self: flex-start;
-    padding: 0.5rem;
-    margin-left: 3rem;
 }
 
-.work-title {
-    font-size: 20pt;
-    color: #378AD7;
-    margin-left: 3rem;
+/* Hero banner starts here */
+
+.hero-Img {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+    margin-right: 100px;
 }
 
-.about-title {
-    font-size: 20pt;
-    color: #378AD7;
-    margin-left: 2rem;
+.info {
+    font-family: Lato, Arial, sans-serif;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 150px;
+    line-height: 30px;
 }
 
-.contact-title {
-    margin-right: 3rem;
-    font-size: 20pt;
+.button {
+    margin-left: 225px;
+    margin-top: 100px;
     color: #378AD7;
-    margin-left: 2rem;
+    font-family: Bebas Neue, Arial, sans-serif;
+    font-size: 20pt;
+}
+
+/* Footer starts here */
+
+.footer-links {
+    background-color: #E7E6D9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #378AD7;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15pt;
+    font-family: Lato, Arial, sans-serif;
+    padding: 1rem;
 }
