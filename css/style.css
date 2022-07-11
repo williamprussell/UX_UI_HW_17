@@ -7,26 +7,28 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #E7E6D9;
+    background-color: #666666;
     padding: 30px;
     font-family: Bebas Neue, Arial, sans-serif;
 }
 
 .right {
     font-size: 20pt;
-    color: #378AD7;
 }
 
 .work {
     margin-right: 2rem;
+    color: #FFFFFF;
 }
 
 .about {
     margin-right: 2rem;
+    color: #FFFFFF;
 }
 
 .contact {
     margin-right: 72px;
+    color: #FFFFFF;
 }
 
 .logo {
@@ -70,12 +72,12 @@
 /* Footer starts here */
 
 .footer-links {
-    background-color: #E7E6D9;
+    background-color: #666666;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #378AD7;
+    color: #FFFFFF;
     text-align: center;
 }
 
